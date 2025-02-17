@@ -1,73 +1,125 @@
-
 # Proyecto Dad Moises
 
-Este es un Proyecto del Alumno Moises David Miranda Rivero de 2ºDAM del módulo de DAD.
+Este es un proyecto creado por el alumno **Moises David Miranda Rivero** del 2º curso del ciclo **DAM** (Desarrollo de Aplicaciones Multiplataforma) para el módulo de **DAD** (Desarrollo de Aplicaciones Distribuidas). El proyecto ha sido desarrollado con fines educativos y sin ánimo de lucro.
 
-El proyecto ha sido creado sin animo de lucro y solamente para aprendizaje
+## Descripción
 
+El proyecto tiene como objetivo desarrollar una aplicación distribuida utilizando las mejores prácticas de desarrollo web y de aplicaciones. Las tecnologías utilizadas en el proyecto permiten la gestión y consulta de datos a través de una API REST.
 
+## Tecnologías Utilizadas
 
+- **Frontend**: React.js
+- **Backend**: Node.js y Express
+- **Base de Datos**: MongoDB
+- **Despliegue**: npm
 
+---
 
-## Acknowledgements
+## Instalación
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+Sigue los siguientes pasos para instalar el proyecto localmente:
 
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
 
-## API Reference
+2. Accede al directorio del proyecto:
+   ```bash
+   cd ProyectoDadMoises
+   ```
 
-#### Get all items
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
-```http
-  GET /api/items
-```
+4. Configura las variables de entorno (copia el archivo `.env.example` a `.env` y edítalo con tus datos).
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+5. Inicia la aplicación:
+   ```bash
+   npm start
+   ```
 
-#### Get item
+---
 
-```http
-  GET /api/items/${id}
-```
+## Uso de la API
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+A continuación se describen los endpoints de la API disponibles:
 
-#### add(num1, num2)
+### Obtener todos los elementos
 
-Takes two numbers and returns the sum.
+**Endpoint:** `GET /api/items`
 
+**Parámetros:**
 
-## Appendix
+| Nombre    | Tipo    | Descripción                    |
+| --------- | ------- | -------------------------------- |
+| `api_key` | string  | **Requerido**. Tu clave de API   |
 
-Any additional information goes here
+### Obtener un elemento por ID
 
+**Endpoint:** `GET /api/items/{id}`
 
-## Authors
+**Parámetros:**
 
-- [@octokatherine](https://www.github.com/octokatherine)
+| Nombre | Tipo   | Descripción                    |
+| ------ | ------ | ------------------------------ |
+| `id`   | string | **Requerido**. ID del elemento  |
 
+### Funciones internas
 
-## Deployment
+- **`add(num1, num2)`**: Recibe dos números y devuelve la suma.
 
-To deploy this project run
+---
+
+## Despliegue
+
+Para desplegar este proyecto, ejecuta el siguiente comando:
 
 ```bash
-  npm run deploy
+npm run deploy
 ```
 
+---
 
-## Documentation
+## Documentación
 
-[Documentation](https://linktodocumentation)
+Para más información, consulta la [documentación completa](https://linktodocumentation).
+
+---
+
+## Agradecimientos
+
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+---
+
+## Autores
+
+- Moises David Miranda Rivero
+- [@octokatherine](https://www.github.com/octokatherine)
+
+---
+
+## Enlaces
+
+[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+
+---
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
+
+---
+
+## Apéndice
+
+Cualquier información adicional se puede agregar aquí.
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
