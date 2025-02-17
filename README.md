@@ -9,9 +9,8 @@ El proyecto tiene como objetivo desarrollar una aplicación distribuida utilizan
 ## Tecnologías Utilizadas
 
 - **Frontend**: React.js
-- **Backend**: Node.js y Express
-- **Base de Datos**: MongoDB
-- **Despliegue**: npm
+- **Backend**: Node.js
+- - **Despliegue**: npm
 
 ---
 
