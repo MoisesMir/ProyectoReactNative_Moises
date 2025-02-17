@@ -10,7 +10,7 @@ El proyecto tiene como objetivo desarrollar una aplicación distribuida utilizan
 
 - **Frontend**: React.js
 - **Backend**: Node.js
-- - **Despliegue**: npm
+- **Despliegue**: npm
 
 ---
 
@@ -20,7 +20,7 @@ Sigue los siguientes pasos para instalar el proyecto localmente:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/MoisesMir/ProyectoReactNative_Moises
    ```
 
 2. Accede al directorio del proyecto:
@@ -99,26 +99,11 @@ Para más información, consulta la [documentación completa](https://linktodocu
 ## Autores
 
 - Moises David Miranda Rivero
-- [@octokatherine](https://www.github.com/octokatherine)
-
----
-
-## Enlaces
-
-[![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+   - [@MoisesMir](https://github.com/MoisesMir)
 
 ---
 
 ## Licencia
 
 Este proyecto está licenciado bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
-
----
-
-## Apéndice
-
-Cualquier información adicional se puede agregar aquí.
-
 
